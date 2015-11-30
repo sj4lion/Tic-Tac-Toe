@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mobileclasstesting.tictactoe.RecordsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RecordsTitle"
+        android:id="@+id/recordsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SP"
+        android:id="@+id/SPLabel"
+        android:layout_below="@+id/recordsTitle"
+        android:layout_alignParentStart="true"
+        android:textSize="24dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/W"
+        android:id="@+id/SPWinsLabel"
+        android:layout_below="@+id/SPLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/SPWinsView"
+        android:layout_below="@+id/SPWinsLabel"
+        android:layout_alignParentStart="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/L"
+        android:id="@+id/SPLossesLabel"
+        android:layout_alignTop="@+id/SPWinsLabel"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/SPLossesView"
+        android:textSize="24dp"
+        android:layout_alignTop="@+id/SPWinsView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/D"
+        android:id="@+id/SPDrawsLabel"
+        android:textSize="24dp"
+        android:layout_above="@+id/SPWinsView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/SPDrawsView"
+        android:layout_alignTop="@+id/SPLossesView"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MP"
+        android:id="@+id/textView"
+        android:layout_below="@+id/SPWinsView"
+        android:layout_alignParentStart="true"
+        android:textSize="24dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/W"
+        android:id="@+id/MPWinsLabel"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/D"
+        android:id="@+id/MPDrawsLabel"
+        android:layout_alignTop="@+id/MPWinsLabel"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/L"
+        android:id="@+id/MPLossesLabel"
+        android:layout_alignTop="@+id/MPDrawsLabel"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/MPWinsView"
+        android:layout_below="@+id/MPWinsLabel"
+        android:layout_alignParentStart="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/MPDrawsView"
+        android:layout_below="@+id/MPDrawsLabel"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/MPLossesView"
+        android:layout_below="@+id/MPLossesLabel"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Back"
+        android:id="@+id/RecordsBackButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp" />
+
+</RelativeLayout>

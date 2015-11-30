@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="MenuTitle">TicTacToe</string>
+    <string name="MenuUsername">Username: DefaultUser</string>
+    <string name="MenuSP">Single Player</string>
+    <string name="MenuMP">Multi Player</string>
+    <string name="MenuRecords">Records</string>
+    <string name="MenuSettings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="SettingsTitle">Settings</string>
+    <string name="SettingsUser">Username:</string>
+    <string name="SettingsIP">Server IP:</string>
+    <string name="Apply">Apply Changes</string>
+    <string name="title_activity_records">RecordsActivity</string>
+
+    <string name="RecordsTitle">Your Records</string>
+    <string name="SP">Single Player</string>
+    <string name="MP">Multi Player</string>
+    <string name="W">Wins</string>
+    <string name="D">Draws</string>
+    <string name="L">Losses</string>
+    <string name="Back">GO BACK</string>
+
+
+
+    <string name="title_activity_single_player">SinglePlayerActivity</string>
+    <string name="Team">You Are Team: </string>
+    <string name="Status">(status)</string>
+    <string name="Quit">Quit Game</string>
+    <string name="title_activity_match">MatchActivity</string>
+
+    <string name="Matching">Getting Opponent from server . . . </string>
+    <string name="title_activity_multi_player">MultiPlayerActivity</string>
+
+    <string name="Opponent">Opponent:</string>
+
+
+
+
+
+</resources>
