@@ -7,8 +7,8 @@ features:
 	-Makes use of 2D rendering
 
 IMPORTANT NOTE
-	-the default server IP in settings may not be the active server location, if this is the case i will try
-	to keep an up to date IP of the server logged in the IP.txt file
+	-the default server IP in settings may not be the active server location, if this is the 
+	case i will try to keep an up to date IP of the server logged in the IP.txt file
 
 
 Tic Tac Toe Server
