@@ -1,5 +1,8 @@
 Tic Tac Toe App
 
+by: Samuel Jimoh 100467290
+and Ryan Morton  100485285
+
 features:
 	-Single Player game mode with easy ai (since decision tree would never let you win)
 	-Multi Player game mode using matchmaking server (using the network permission and internet resources)
